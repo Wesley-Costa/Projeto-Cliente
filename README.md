@@ -12,9 +12,6 @@ Para que o projeto possa ser instalado e funcionar corretamente devesse seguir o
 - **$ php artisan key:generate** - Mas antes de rodar este comando verifique a configuracao com o banco no arquivo .env. 
 - **Para visualizar e utilizar o projeto no navegador, utilize a url: http://projeto.local/clientes**
 
-## Ferramentas e Plugins
-A ferramentas e plugins que complementam a parte da interface do usuario foram: AdminLTE, DataTables e MaskedInput, onde elas foram utilizadas para interação com a tabela de listagem de clientes, aplicação de mascars nos campos HTML para cadastro e edição, além do template administrativo fornecido pelo AdminLTE.
-
 ## Importante
 
 ### Banco de Dados
@@ -26,3 +23,6 @@ O banco de dados utilizado foi o Postgres. Já a estrutura das tabelas foi feita
 - As rotas da aplicação ficam no arquivo routes.php (app/Http/routes.php)
 - As views e outros arquivos da aplicação ficam na pasta resources, onde podem ser encontrados arquivos JS, CSS e as blades PHP.
 - A estrutura base do projeto segue o mesmo padrão aplicado na Fábrica de Software e em projetos que utilizam o framework Laravel.
+
+### Ferramentas e Plugins
+A ferramentas e plugins que complementam a parte da interface do usuario foram: AdminLTE, DataTables e MaskedInput, onde elas foram utilizadas para interação com a tabela de listagem de clientes, aplicação de mascars nos campos HTML para cadastro e edição, além do template administrativo fornecido pelo AdminLTE.
