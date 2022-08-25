@@ -18,3 +18,6 @@ Route::get('/', function () {
 });
 
 Route::resource('clientes', 'ClienteController');
+
+// teste da branch
+Route::resource('users', 'ClienteController');
