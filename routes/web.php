@@ -21,3 +21,6 @@ Route::resource('clientes', 'ClienteController');
 
 // teste da branch
 Route::resource('users', 'ClienteController');
+
+// teste da branch 2
+Route::resource('users2', 'ClienteController');
